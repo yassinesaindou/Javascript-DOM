@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <header class="card__header">
+        <h1 class="card__heading">BookNet</h1>
+        <p class="card__paragraph">Read as many as you can</p>
+        <form class="card__header-input" id="header__form">
+          <input
+            type="text"
+            class="search__field"
+            placeholder="Search a book..."
+          />
+          <button class="search__button">Search</button>
+        </form>
+      </header>
+      <main class="card__body">
+        <ul class="list">
+            <li>
+              <p class="book__title">Rich dad Poor Dad</p>
+              <button class="delete__button">Delete</button>
+            </li>
+            <li>
+                <p class="book__title">The wise man</p>
+                <button class="delete__button">Delete</button>
+              </li>
+              <li>
+                <p class="book__title">Wake your mind Up</p>
+                <button class="delete__button">Delete</button>
+              </li>
+              <li>
+                <p class="book__title">The Red Flag</p>
+                <button class="delete__button">Delete</button>
+              </li>
+        </ul>
+        <div class="hiding-options">
+          <span class="hide__text">Show/Hide the books</span>
+            <input type="checkbox" name="" class="checkbox" id="check">
+        </div>
+        <form class="body__input-group" id="add__form">
+          
+          <input type="text" class="input__book" placeholder="Add a new Book" />
+          <button class="add-book__button">Add</button>
+
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
